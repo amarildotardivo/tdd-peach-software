@@ -22,7 +22,6 @@ describe('Happy Path', () => {
 
     test(`getProfile('Java') retorne contendo um perfil com linguagem igual a 'Java' `, () => {
         const actual = getProfile('Java')
-        console.log('>>>>>>>>>> ', actual)
         const expected = 
         [
             {
